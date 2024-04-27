@@ -3,7 +3,7 @@
 ```bash
 Saya Nur Ainun 2202046 mengerjakan LATIHAN PRAKTIKUM 5 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek 
 untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin. 
-
+```
 
 ## Deskripsi Program
 
@@ -25,9 +25,6 @@ Program ini adalah sebuah aplikasi berbasis PHP dengan antarmuka grafis (GUI) un
 - Kolom id_penulis: Primary key untuk identifikasi unik penulis.
 - Kolom nama_penulis: Menyimpan nama penulis.
 
-### Tabel Penerbit
-- Kolom id_penerbit: Primary key untuk identifikasi unik penerbit.
-- Kolom nama_penerbit: Menyimpan nama penerbit.
 
 ## Alur Program CRUD dengan Database
 
@@ -58,3 +55,9 @@ Program ini adalah sebuah aplikasi berbasis PHP dengan antarmuka grafis (GUI) un
   - Tabel Kategori dan Penulis ditampilkan dengan view berbentuk tabel
   - Tabel Buku ditampilkan dengan tampilan berbentuk card yang bisa di klik untuk melihat detailnya
   - Terdapat fungsi searching berdasarkan judul Buku
+
+## Demo 
+
+https://github.com/Nurainunlubis/TP3DPBO2024C1/assets/113582460/db07d347-b972-4bee-a835-2de52330c2e6
+
+ 
