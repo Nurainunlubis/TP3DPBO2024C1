@@ -7,24 +7,18 @@ include('classes/Kategori.php');
 include('classes/Penulis.php');
 include('classes/Template.php');
 
-//bua instance pengurus
+//bua instance buku
 $listBuku = new Buku($DB_HOST, $DB_USERNAME, $DB_PASSWORD, $DB_NAME);
 
 // buka koneksi
 $listBuku->open();
-// tampilkan data pengurus
+// tampilkan data buku
 $listBuku->getBukuJoin();
 
-// cari pengurus
+// cari buku
 if (isset($_POST['btn-cari'])) {
-  // methode mencari data pengurus
+  // methode mencari data buku
   $listBuku->searchBuku($_POST['cari']);
-} else if (isset($_POST['btn-asc'])) {
-  // methode menampilkan secara ascending
-  $listBuku->filterAsc();
-}else if (isset($_POST['btn-desc'])) {
-  // methode menampilkan secara descending
-  $listBuku->filterDesc();
 } else {
   // methode menampilkan data buku
   $listBuku->getBukuJoin();
